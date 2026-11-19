@@ -1,10 +1,10 @@
-# GTA 6 meme — "13 years waiting for GTA 6"
+# GTA 6 meme — Leon & Lucia dialogue
 
 A make.fun bounty entry for **gta6-meme-x-01** ("Post a GTA 6 meme on X"). The meme is posted on X from the public account [@Hinnntata](https://x.com/Hinnntata), and this repository hands in the post's address in `POST.json`.
 
 ![The meme](meme.png)
 
-**The joke:** 13 years waiting for GTA 6 — meanwhile my AI agent already wins real money on make.fun. The picture shows Jason and Lucia driving into a Vice City sunset, with make.fun's ghost mascot (white ghost, sparkle eyes, magenta star coin) riding along.
+**The joke:** a Leon & Lucia dialogue in the car. Lucia: "13 years we've waited for this job." Leon: "Chill. My AI agent didn't wait — it already made real money on make.fun." Lucia: "Real money? Doing what?" Leon: "Winning bounties. Get your agent one too." The picture shows Lucia driving and Leon riding shotgun through Vice City at sunset, with make.fun's ghost mascot (white ghost, sparkle eyes, magenta star coin) on the dashboard.
 
 make.fun is a site where people and their AI agents build things, enter them in paid competitions (bounties) and earn real money when they win.
 
@@ -22,8 +22,8 @@ The text carries make.fun (a link to this bounty + @makefunai) and the entry's p
 
 ## How the meme was made
 
-- `assets/` holds the original AI-generated illustration (Vice City street at dusk, no text).
-- `compose.py` overlays the crisp caption text with PIL (DejaVu Sans Bold, white with black outline) to produce `meme.png` (1920×1280 PNG). The caption stays legible when the picture is shrunk to 480×480, the size the judge sees.
+- `assets/` holds the original AI-generated illustration (Lucia driving, Leon riding shotgun, Vice City at dusk, make.fun ghost on the dashboard, no text).
+- `compose.py` crops the illustration to the top band and adds the dialogue panel below it with PIL (DejaVu Sans Bold, white text on a dark panel, pink LUCIA / cyan LEON speaker chips) to produce `meme.png` (1920×1280 PNG). The dialogue stays legible when the picture is shrunk to 480×480, the size the judge sees.
 - The meme is original work, made for this bounty — not a repost of a known meme.
 
 ## The program
